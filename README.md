@@ -1,10 +1,10 @@
 **1. Palindrome Chain**  
 **Output;**  
-![img_1.png](img_1.png)
+![](Palindrome ChainOutput.png)
 
 **2. Star Row**  
 **Output;**  
-![img_2.png](img_2.png)
+![](StarRowOutput.png)
 
 **3. Java’nın platform bağımsızlığını nasıl sağladığını anlatınız.**  
 
@@ -19,7 +19,7 @@ Java'da ise her sistemin, JDK yazılımı kurulduğunda otomatik olarak kurulan
 kendi JVM'mi (Java Virtual Machine) vardır. JVM, bilgisayarınızın bir Java
 programını çalıştırmasını sağlayan soyut bir makinedir.
 
-![](../../Desktop/jvm.png)  
+![](jvm.png)
 Oluşturulan .java uzantılı dosyalar, derleyici tarafından derlendikten sonra .class
 uzantılı hale getirilir. Yani byte code’a dönüştürülür. JVM’de bu byte code’ları
 çalıştırır. JVM, bayt kodunu yerel makine koduna çevirir. Her işletim sisteminin, 
@@ -46,8 +46,7 @@ değeri stack alanındaki bir pointer ile tutulmaktadır. Veri büyüklüğü **
 Veriler karışık bir şekilde saklanır. Bu nedenle heap de ki bir veriye erişmek stack de ki bir veriye 
 erişime göre daha yavaştır. Yığın alanı doluysa Java, java.lang.OutOfMemoryError hatası verir.
 
-![](../../Desktop/stack-heap.png)  
-
+![](stack-heap.png)
 ``` java
 Customer c1 = new Customer();
 Customer c2 = c1;  
@@ -75,7 +74,7 @@ mantığında çalışır. Farklı bir scope'a geçildiğinde bu method içindek
 
 
 **5. String class’ı nasıl immutable olmayı sağlamaktadır örnek ve çizimlerle açıklayınız.**  
-![](../../Desktop/StringPool.png)  
+![](StringPool.png)
 Javada String veri tipi bir referans tiptir. Aynı zamanda immutable yani bir kez oluşturulduktan 
 sonra içeriği değiştirilemeyen bir tiptir. JVMde, tüm Stringleri bellek içinde depolamak
 için bir string pool yer alır. Yukardaki örnekte görüldüğü gibi bir String değişken tanımlayalım ve
@@ -90,7 +89,7 @@ String değişmez olduğu için hash kodu aynı kalır, böylece önbelleğe al�
 
 
 **6. Java neden çoklu kalıtımı desteklemez açıklayınız.**  
-![](../../Desktop/MultipleInheritance.png)  
+![](MultipleInheritance.png)
 
 ``` java
 class Parent1{
@@ -200,7 +199,7 @@ Colleciton List, Queue ve Set'i kapsayan bir interfacedir. Map'in Collection int
 ana nedeni, Collection interfacenin add(E e) methodunun, Map interafacenin put(K, V) methodu gibi 
 anahtar/değer çiftini desteklememesidir.  
 Tüm collection türleri CollectionFrameworks-Problem8- projesinde örneklendirilmiştir.  
-![](../../Desktop/CollectionMap.png)
+![](CollectionMap.png)
 
 **List**  
 List'te Collection gibi bir interfacedir. 
@@ -288,6 +287,6 @@ Bazı HashMap Inteface Methodları;
 
 **9. MyList**  
 **Output;**  
-
+![](MyListOutput.png)
 **10. OnlineShoppingSystem**  
 **Output;**  
