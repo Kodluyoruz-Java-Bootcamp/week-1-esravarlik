@@ -283,7 +283,7 @@ Bazı HashMap Inteface Methodları;
 - ``remove(K)`` - Anahtarın temsil ettiği değeri kaldırır.
 - ``keySet()`` - Bir mapte bulunan tüm anahtarların bir kümesini döndürür.
 - ``values()`` - Bir mapte bulunan tüm değerlerin bir kümesini döndürür.
-- ``inputSet()`` - Bir mapte bulunan tüm anahtar/değer eşlemelerinin bir kümesini döndürür.
+- ``inputSet()`` - Bir mapte bulunan tüm anahtar/değer eşlemelerinin bir kümesini döndürür.  
 **Output;**  
 ![](CollectionsOutput1.png)  
 ![](CollectionsOutput2.png)  
